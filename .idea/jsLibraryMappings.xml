@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{@types/angular-pdfjs-viewer, @types/karma-jasmine, @types/protractor-helpers, @types/selenium-webdriver}" />
+    <file url="PROJECT" libraries="{@types/angular, @types/angular-pdfjs-viewer, @types/jasmine, @types/jquery, @types/karma-jasmine, @types/lodash, @types/protractor-helpers, @types/selenium-standalone, @types/selenium-webdriver, @types/typescript-deferred}" />
   </component>
 </project>

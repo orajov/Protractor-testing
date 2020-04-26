@@ -12,5 +12,11 @@
     <orderEntry type="library" name="@types/protractor-helpers" level="application" />
     <orderEntry type="library" name="@types/selenium-webdriver" level="application" />
     <orderEntry type="library" name="@types/angular-pdfjs-viewer" level="application" />
+    <orderEntry type="library" name="@types/angular" level="application" />
+    <orderEntry type="library" name="@types/jasmine" level="application" />
+    <orderEntry type="library" name="@types/jquery" level="application" />
+    <orderEntry type="library" name="@types/lodash" level="application" />
+    <orderEntry type="library" name="@types/typescript-deferred" level="application" />
+    <orderEntry type="library" name="@types/selenium-standalone" level="application" />
   </component>
 </module>
