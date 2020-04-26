@@ -2,6 +2,7 @@ describe("Actions",function () {
 
     it('Open Angular website', function () {
 
+        browser.waitForAngularEnabled(false);   // non angular web
         browser.get("http://www.way2automation.com/angularjs-protractor/banking/#/customer");
 
         const sleep = browser.sleep;
