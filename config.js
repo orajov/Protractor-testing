@@ -6,6 +6,6 @@ exports.config = {
 
     framework: 'jasmine',
 
-    specs: ['DropDowns.js'],
+    specs: ['Actions.js'],
 
 };

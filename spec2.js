@@ -2,11 +2,13 @@ describe("Protractor tutorial",function () {
 
     it('Open Angular website', function () {
 
+        browser.waitForAngularEnabled(false);
         browser.get('http://poradfilm.cekuj.net/form.html');
-        browser.sleep(5000);
-        element(by.id("gobutton")).click();
-// Pauza
-        browser.sleep(5000);
+
+        element(by.id("gobutton")).click().then(function () {
+            browser.sleep(5000);
+
+        });
 
     });
 

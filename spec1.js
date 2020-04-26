@@ -2,7 +2,8 @@ describe("Protractor tutorial",function () {
 
     it('Open Angular website', function () {
 
-        browser.waitForAngularEnabled(false); //non angular web
+        //non angular web
+        // browser.waitForAngularEnabled(false);
         browser.get('http://juliemr.github.io/protractor-demo/');
 
         element(by.model("first")).sendKeys(1);
