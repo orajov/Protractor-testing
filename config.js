@@ -6,6 +6,6 @@ exports.config = {
 
     framework: 'jasmine',
 
-    specs: ['HandlingWindows.js'],
+    specs: ['PractiseExercise2.js'],
 
 };

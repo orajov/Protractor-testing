@@ -18,6 +18,11 @@ describe("Actions",function () {
 
                         browser.switchTo().window(handles[0])
 
+                        browser.getTitle().then(function (title) {
+                            console.log(title+" = title of the page after switching")
+
+                        })
+
                 })
                 sleep(5000)
             })
